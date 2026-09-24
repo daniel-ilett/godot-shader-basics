@@ -1,0 +1,27 @@
+[gd_resource type="ShaderMaterial" load_steps=6 format=3 uid="uid://d2wkvi4mj44ea"]
+
+[ext_resource type="Shader" uid="uid://bmpcf3sitteju" path="res://Shaders/PBR.gdshader" id="1_go3wa"]
+[ext_resource type="Texture2D" uid="uid://bfmf3r5h3plxy" path="res://Textures/Wood070_1K-PNG/Wood070_1K-PNG_Color.png" id="2_vv8v8"]
+[ext_resource type="Texture2D" uid="uid://bcpjsycx22k3b" path="res://Textures/Wood070_1K-PNG/Wood070_1K-PNG_Displacement.png" id="3_go3wa"]
+[ext_resource type="Texture2D" uid="uid://d1mj8exwf5jer" path="res://Textures/Wood070_1K-PNG/Wood070_1K-PNG_NormalGL.png" id="4_mbh4t"]
+[ext_resource type="Texture2D" uid="uid://c8r2o2x3egeta" path="res://Textures/Wood070_1K-PNG/Wood070_1K-PNG_Roughness.png" id="5_gadwc"]
+
+[resource]
+render_priority = 0
+shader = ExtResource("1_go3wa")
+shader_parameter/uv_tiling = Vector2(1, 1)
+shader_parameter/uv_offset = Vector2(0, 0)
+shader_parameter/base_color = Color(1, 1, 1, 1)
+shader_parameter/base_texture = ExtResource("2_vv8v8")
+shader_parameter/normal_texture = ExtResource("4_mbh4t")
+shader_parameter/normal_strength = 1.0000000475
+shader_parameter/metallic = 0.0
+shader_parameter/occlusion = 1.0
+shader_parameter/heightmap_texture = ExtResource("3_go3wa")
+shader_parameter/height = 0.002000000095
+shader_parameter/roughness_texture = ExtResource("5_gadwc")
+shader_parameter/roughness = 1.0
+shader_parameter/emission_color = Color(0, 0, 0, 1)
+shader_parameter/use_clear_coat = false
+shader_parameter/clearcoat = 0.0
+shader_parameter/clearcoat_roughness = 1.0

@@ -1,0 +1,29 @@
+[gd_resource type="ShaderMaterial" load_steps=7 format=3 uid="uid://fynj52dgb0qy"]
+
+[ext_resource type="Shader" uid="uid://bmpcf3sitteju" path="res://Shaders/PBR.gdshader" id="1_c6kpy"]
+[ext_resource type="Texture2D" uid="uid://5py3w2sfn1n7" path="res://Textures/Plaster007_1K-PNG/Plaster007_1K-PNG_Color.png" id="2_c6kpy"]
+[ext_resource type="Texture2D" uid="uid://djcu8n3jyvsr8" path="res://Textures/Plaster007_1K-PNG/Plaster007_1K-PNG_Displacement.png" id="3_2iukh"]
+[ext_resource type="Texture2D" uid="uid://b2nr774l6e554" path="res://Textures/Plaster007_1K-PNG/Plaster007_1K-PNG_NormalGL.png" id="4_p43wu"]
+[ext_resource type="Texture2D" uid="uid://bnsy80qedxyq6" path="res://Textures/Plaster007_1K-PNG/Plaster007_1K-PNG_AmbientOcclusion.png" id="5_wwdac"]
+[ext_resource type="Texture2D" uid="uid://m8jlobj4la71" path="res://Textures/Plaster007_1K-PNG/Plaster007_1K-PNG_Roughness.png" id="6_m5ocd"]
+
+[resource]
+render_priority = 0
+shader = ExtResource("1_c6kpy")
+shader_parameter/uv_tiling = Vector2(1, 1)
+shader_parameter/uv_offset = Vector2(0, 0)
+shader_parameter/base_color = Color(1, 1, 1, 1)
+shader_parameter/base_texture = ExtResource("2_c6kpy")
+shader_parameter/normal_texture = ExtResource("4_p43wu")
+shader_parameter/normal_strength = 1.50000007125
+shader_parameter/metallic = 0.0
+shader_parameter/occlusion_texture = ExtResource("5_wwdac")
+shader_parameter/occlusion = 1.0
+shader_parameter/heightmap_texture = ExtResource("3_2iukh")
+shader_parameter/height = 0.050000002375
+shader_parameter/roughness_texture = ExtResource("6_m5ocd")
+shader_parameter/roughness = 1.0
+shader_parameter/emission_color = Color(0, 0, 0, 1)
+shader_parameter/use_clear_coat = false
+shader_parameter/clearcoat = 0.0
+shader_parameter/clearcoat_roughness = 1.0

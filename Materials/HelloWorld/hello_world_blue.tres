@@ -1,0 +1,8 @@
+[gd_resource type="ShaderMaterial" load_steps=2 format=3 uid="uid://cqq65myno4vyp"]
+
+[ext_resource type="Shader" uid="uid://capntwct3tw82" path="res://Shaders/HelloWorld.gdshader" id="1_xcaxd"]
+
+[resource]
+render_priority = 0
+shader = ExtResource("1_xcaxd")
+shader_parameter/base_color = Color(0, 0, 1, 1)

@@ -1,0 +1,16 @@
+[gd_resource type="ShaderMaterial" load_steps=3 format=3 uid="uid://dv2juko617wyr"]
+
+[ext_resource type="Shader" uid="uid://bh4fa33a851x2" path="res://Shaders/DissolvePerlin.gdshader" id="1_x1iab"]
+[ext_resource type="Texture2D" uid="uid://bqjyd1h5rlc3r" path="res://Textures/Grass001_1K-PNG/Grass001_1K-PNG_Color.png" id="2_x1iab"]
+
+[resource]
+render_priority = 0
+shader = ExtResource("1_x1iab")
+shader_parameter/base_color = Color(1, 1, 1, 1)
+shader_parameter/base_texture = ExtResource("2_x1iab")
+shader_parameter/noise_scale = 100.0
+shader_parameter/noise_strength = 0.5
+shader_parameter/cutoff_height = 0.0
+shader_parameter/cutoff_width = 0.0250000011875
+shader_parameter/cycle_speed = 0.30000001425
+shader_parameter/cutoff_emission = Color(0, 0.2716822, 2.454227, 1)

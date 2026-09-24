@@ -1,0 +1,29 @@
+[gd_resource type="ShaderMaterial" load_steps=7 format=3 uid="uid://w000accownyn"]
+
+[ext_resource type="Shader" uid="uid://bmpcf3sitteju" path="res://Shaders/PBR.gdshader" id="1_8jj8r"]
+[ext_resource type="Texture2D" uid="uid://bqjyd1h5rlc3r" path="res://Textures/Grass001_1K-PNG/Grass001_1K-PNG_Color.png" id="2_8jj8r"]
+[ext_resource type="Texture2D" uid="uid://cbgdym4570maq" path="res://Textures/Grass001_1K-PNG/Grass001_1K-PNG_Displacement.png" id="3_vdq4x"]
+[ext_resource type="Texture2D" uid="uid://bogvfqtvkor" path="res://Textures/Grass001_1K-PNG/Grass001_1K-PNG_NormalGL.png" id="4_rhmwt"]
+[ext_resource type="Texture2D" uid="uid://fjpyf24nuc1d" path="res://Textures/Grass001_1K-PNG/Grass001_1K-PNG_AmbientOcclusion.png" id="5_vdc0o"]
+[ext_resource type="Texture2D" uid="uid://eeei11p3ukoj" path="res://Textures/Grass001_1K-PNG/Grass001_1K-PNG_Roughness.png" id="6_0jeef"]
+
+[resource]
+render_priority = 0
+shader = ExtResource("1_8jj8r")
+shader_parameter/uv_tiling = Vector2(1, 1)
+shader_parameter/uv_offset = Vector2(0, 0)
+shader_parameter/base_color = Color(1, 1, 1, 1)
+shader_parameter/base_texture = ExtResource("2_8jj8r")
+shader_parameter/normal_texture = ExtResource("4_rhmwt")
+shader_parameter/normal_strength = 1.0000000475
+shader_parameter/metallic = 0.0
+shader_parameter/occlusion_texture = ExtResource("5_vdc0o")
+shader_parameter/occlusion = 1.0
+shader_parameter/heightmap_texture = ExtResource("3_vdq4x")
+shader_parameter/height = 0.002000000095
+shader_parameter/roughness_texture = ExtResource("6_0jeef")
+shader_parameter/roughness = 1.0
+shader_parameter/emission_color = Color(0, 0, 0, 1)
+shader_parameter/use_clear_coat = false
+shader_parameter/clearcoat = 0.0
+shader_parameter/clearcoat_roughness = 1.0

@@ -1,0 +1,16 @@
+[gd_resource type="ShaderMaterial" load_steps=3 format=3 uid="uid://bwyyhl0iy8f27"]
+
+[ext_resource type="Shader" uid="uid://bk544gta435o" path="res://Shaders/DissolveVoronoi.gdshader" id="1_4rhss"]
+[ext_resource type="Texture2D" uid="uid://febc1xn4vl40" path="res://Textures/Bricks097_1K-PNG/Bricks097_1K-PNG_Color.png" id="2_o50hh"]
+
+[resource]
+render_priority = 0
+shader = ExtResource("1_4rhss")
+shader_parameter/base_color = Color(1, 1, 1, 1)
+shader_parameter/base_texture = ExtResource("2_o50hh")
+shader_parameter/noise_scale = 45.00000209
+shader_parameter/noise_strength = 0.250000011875
+shader_parameter/cutoff_height = 0.055
+shader_parameter/cutoff_width = 0.02000000095
+shader_parameter/cycle_speed = 0.0
+shader_parameter/cutoff_emission = Color(1.4513897, 0.5762587, 0, 1)

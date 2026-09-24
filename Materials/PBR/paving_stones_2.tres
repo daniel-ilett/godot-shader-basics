@@ -1,0 +1,29 @@
+[gd_resource type="ShaderMaterial" load_steps=7 format=3 uid="uid://dre4esdetupw4"]
+
+[ext_resource type="Shader" uid="uid://bmpcf3sitteju" path="res://Shaders/PBR.gdshader" id="1_dcbqj"]
+[ext_resource type="Texture2D" uid="uid://dgerve2mn3gmq" path="res://Textures/PavingStones141_1K-PNG/PavingStones141_1K-PNG_Color.png" id="2_dcbqj"]
+[ext_resource type="Texture2D" uid="uid://dbbi3yofu44pi" path="res://Textures/PavingStones141_1K-PNG/PavingStones141_1K-PNG_Displacement.png" id="3_0rkgs"]
+[ext_resource type="Texture2D" uid="uid://cnrqxha2yvwld" path="res://Textures/PavingStones141_1K-PNG/PavingStones141_1K-PNG_NormalGL.png" id="4_j46yf"]
+[ext_resource type="Texture2D" uid="uid://dp455q15o3b6u" path="res://Textures/PavingStones141_1K-PNG/PavingStones141_1K-PNG_AmbientOcclusion.png" id="5_ax40x"]
+[ext_resource type="Texture2D" uid="uid://d3183fdda52hn" path="res://Textures/PavingStones141_1K-PNG/PavingStones141_1K-PNG_Roughness.png" id="6_8ecyj"]
+
+[resource]
+render_priority = 0
+shader = ExtResource("1_dcbqj")
+shader_parameter/uv_tiling = Vector2(1, 1)
+shader_parameter/uv_offset = Vector2(0, 0)
+shader_parameter/base_color = Color(1, 1, 1, 1)
+shader_parameter/base_texture = ExtResource("2_dcbqj")
+shader_parameter/normal_texture = ExtResource("4_j46yf")
+shader_parameter/normal_strength = 1.50000007125
+shader_parameter/metallic = 0.0
+shader_parameter/occlusion_texture = ExtResource("5_ax40x")
+shader_parameter/occlusion = 1.0
+shader_parameter/heightmap_texture = ExtResource("3_0rkgs")
+shader_parameter/height = 0.050000002375
+shader_parameter/roughness_texture = ExtResource("6_8ecyj")
+shader_parameter/roughness = 1.0
+shader_parameter/emission_color = Color(0, 0, 0, 1)
+shader_parameter/use_clear_coat = false
+shader_parameter/clearcoat = 0.0
+shader_parameter/clearcoat_roughness = 1.0

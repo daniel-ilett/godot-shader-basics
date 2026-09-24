@@ -1,0 +1,14 @@
+[gd_resource type="ShaderMaterial" load_steps=3 format=3 uid="uid://b7uuixq2bwvl4"]
+
+[ext_resource type="Shader" uid="uid://bp6qi5xda6hv7" path="res://Shaders/VertexWaves.gdshader" id="1_wgid6"]
+[ext_resource type="Texture2D" uid="uid://c1uu6i7lbx0hq" path="res://icon.svg" id="2_mnyap"]
+
+[resource]
+render_priority = 0
+shader = ExtResource("1_wgid6")
+shader_parameter/base_color = Color(1, 1, 1, 1)
+shader_parameter/base_texture = ExtResource("2_mnyap")
+shader_parameter/wave_speed = 0.250000011875
+shader_parameter/wave_height = 0.1
+shader_parameter/wave_scale = 3.0000001425
+shader_parameter/wave_darkening = 0.750000035625
