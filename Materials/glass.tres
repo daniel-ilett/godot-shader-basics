@@ -1,0 +1,12 @@
+[gd_resource type="ShaderMaterial" load_steps=3 format=3 uid="uid://7nvui8v8006n"]
+
+[ext_resource type="Shader" uid="uid://dbmuxvm23q0i5" path="res://Shaders/Glass.gdshader" id="1_svr6x"]
+[ext_resource type="Texture2D" uid="uid://bp5kx6t4a0av8" path="res://Textures/Sand033_1K-PNG/Ground033_1K-PNG_NormalGL.png" id="2_lkb5q"]
+
+[resource]
+render_priority = 0
+shader = ExtResource("1_svr6x")
+shader_parameter/normal_texture = ExtResource("2_lkb5q")
+shader_parameter/normal_strength = 0.150000007125
+shader_parameter/normal_tiling = Vector2(2, 3)
+shader_parameter/refractive_index = 6.2170002478075

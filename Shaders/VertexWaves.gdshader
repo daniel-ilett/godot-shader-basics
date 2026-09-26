@@ -5,7 +5,7 @@ group_uniforms Albedo;
 /** Used for the albedo tint of the object. */
 uniform vec3 base_color : source_color = vec3(1.0f);
 /** Used for the albedo tint of the object. */
-uniform sampler2D base_texture : source_color, filter_nearest;
+uniform sampler2D base_texture : source_color;
 group_uniforms;
 
 group_uniforms Waves;
@@ -39,6 +39,4 @@ void fragment()
 	tint = mix(1.0 - wave_darkening, 1.0f, tint);
 	
 	ALBEDO = base_color * col.rgb * tint;
-	
-	//NORMAL = normalize(cross(dFdy(VERTEX), dFdx(VERTEX)));
 }

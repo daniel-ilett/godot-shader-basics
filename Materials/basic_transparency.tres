@@ -1,0 +1,10 @@
+[gd_resource type="ShaderMaterial" load_steps=3 format=3 uid="uid://big1nxlojfuhr"]
+
+[ext_resource type="Shader" uid="uid://bo7wormffjrsg" path="res://Shaders/BasicTransparency.gdshader" id="1_qthwi"]
+[ext_resource type="Texture2D" uid="uid://c1uu6i7lbx0hq" path="res://icon.svg" id="2_s371a"]
+
+[resource]
+render_priority = 0
+shader = ExtResource("1_qthwi")
+shader_parameter/base_color = Color(1, 1, 1, 1)
+shader_parameter/base_texture = ExtResource("2_s371a")

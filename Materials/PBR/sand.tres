@@ -1,0 +1,29 @@
+[gd_resource type="ShaderMaterial" load_steps=7 format=3 uid="uid://dbe47xbdrb4m2"]
+
+[ext_resource type="Shader" uid="uid://bmpcf3sitteju" path="res://Shaders/PBR.gdshader" id="1_xlqoi"]
+[ext_resource type="Texture2D" uid="uid://q4l7ua237k1t" path="res://Textures/Sand033_1K-PNG/Ground033_1K-PNG_Color.png" id="2_xlqoi"]
+[ext_resource type="Texture2D" uid="uid://wq7p2wod08aj" path="res://Textures/Sand033_1K-PNG/Ground033_1K-PNG_Displacement.png" id="3_4l1mn"]
+[ext_resource type="Texture2D" uid="uid://bp5kx6t4a0av8" path="res://Textures/Sand033_1K-PNG/Ground033_1K-PNG_NormalGL.png" id="4_24ryk"]
+[ext_resource type="Texture2D" uid="uid://chij8ktsllq2c" path="res://Textures/Sand033_1K-PNG/Ground033_1K-PNG_AmbientOcclusion.png" id="5_wy2e5"]
+[ext_resource type="Texture2D" uid="uid://eargc1uyj60l" path="res://Textures/Sand033_1K-PNG/Ground033_1K-PNG_Roughness.png" id="6_qgfth"]
+
+[resource]
+render_priority = 0
+shader = ExtResource("1_xlqoi")
+shader_parameter/uv_tiling = Vector2(4, 4)
+shader_parameter/uv_offset = Vector2(0, 0)
+shader_parameter/base_color = Color(1, 1, 1, 1)
+shader_parameter/base_texture = ExtResource("2_xlqoi")
+shader_parameter/normal_texture = ExtResource("4_24ryk")
+shader_parameter/normal_strength = 1.50000007125
+shader_parameter/metallic = 0.0
+shader_parameter/occlusion_texture = ExtResource("5_wy2e5")
+shader_parameter/occlusion = 1.0
+shader_parameter/heightmap_texture = ExtResource("3_4l1mn")
+shader_parameter/height = 0.06000000285
+shader_parameter/roughness_texture = ExtResource("6_qgfth")
+shader_parameter/roughness = 1.0
+shader_parameter/emission_color = Color(0, 0, 0, 1)
+shader_parameter/use_clear_coat = false
+shader_parameter/clearcoat = 0.0
+shader_parameter/clearcoat_roughness = 1.0

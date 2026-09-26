@@ -1,0 +1,27 @@
+[gd_resource type="ShaderMaterial" load_steps=5 format=3 uid="uid://c136ll4gs26d0"]
+
+[ext_resource type="Shader" uid="uid://dpvqyjdb7nd67" path="res://Shaders/FoamWaves.gdshader" id="1_rk04w"]
+[ext_resource type="Texture2D" uid="uid://bp5kx6t4a0av8" path="res://Textures/Sand033_1K-PNG/Ground033_1K-PNG_NormalGL.png" id="2_rk04w"]
+
+[sub_resource type="FastNoiseLite" id="FastNoiseLite_ckhbh"]
+
+[sub_resource type="NoiseTexture2D" id="NoiseTexture2D_rk04w"]
+noise = SubResource("FastNoiseLite_ckhbh")
+seamless = true
+
+[resource]
+render_priority = 0
+shader = ExtResource("1_rk04w")
+shader_parameter/base_color = Color(0.3569, 0.57768, 0.83, 0.76862746)
+shader_parameter/normal_texture = ExtResource("2_rk04w")
+shader_parameter/normal_strength = 1.0
+shader_parameter/normal_scroll = 0.050000002375
+shader_parameter/wave_speed = 0.250000011875
+shader_parameter/wave_height = 0.1
+shader_parameter/wave_scale = 1.250000059375
+shader_parameter/wave_darkening = 0.2000000095
+shader_parameter/foam_thickness = 0.1650000078375
+shader_parameter/foam_random_texture = SubResource("NoiseTexture2D_rk04w")
+shader_parameter/foam_random_strength = 0.3770000179075
+shader_parameter/foam_random_tiling = Vector2(2.5, 4)
+shader_parameter/foam_random_flow = 0.10000000475
