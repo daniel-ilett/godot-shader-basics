@@ -10,7 +10,9 @@ Godot's shader tools are powerful, but they aim to be approachable to newcomers,
 
 This project is part of a tutorial series which is available in the following places:
 
-- (coming soon)
+- Part 1: Your First Shader: [YouTube](https://www.youtube.com/watch?v=ZJv3e8Jqqz0) [Article](https://danielilett.com/2026-10-01-gdbasics-1-your-first-shader/)
+- Part 2: Textures & UVs: [YouTube](https://www.youtube.com/watch?v=ktWHeYvXgSo) [Article](https://danielilett.com/2026-10-05-gdbasics-2-textures-and-uvs/)
+- Part 3: Vertex Displacement (coming soon!)
 
 ## Authors
 
