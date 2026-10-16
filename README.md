@@ -12,7 +12,8 @@ This project is part of a tutorial series which is available in the following pl
 
 - Part 1: Your First Shader: [YouTube](https://www.youtube.com/watch?v=ZJv3e8Jqqz0) [Article](https://danielilett.com/2026-10-01-gdbasics-1-your-first-shader/)
 - Part 2: Textures & UVs: [YouTube](https://www.youtube.com/watch?v=ktWHeYvXgSo) [Article](https://danielilett.com/2026-10-05-gdbasics-2-textures-and-uvs/)
-- Part 3: Vertex Displacement (coming soon!)
+- Part 3: Vertex Displacement [YouTube](https://www.youtube.com/watch?v=KdWYdGvbjnA) [Article](https://danielilett.com/2026-10-10-gdbasics-3-vertex-displacement/)
+- Part 4: Transparency & The Screen Texture [YouTube](https://www.youtube.com/watch?v=2rw55VfYp2E) [Article](https://danielilett.com/2026-10-16-gdbasics-4-transparency/)
 
 ## Authors
 
