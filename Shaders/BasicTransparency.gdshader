@@ -16,5 +16,4 @@ void fragment()
 	vec4 col = texture(base_texture, UV) * base_color;
 	ALBEDO = col.rgb;
 	ALPHA = col.a;
-	//ALPHA_SCISSOR_THRESHOLD = 0.5f;
 }

@@ -52,7 +52,7 @@ float perlin_noise(vec2 uv, float scale, float timeOffset)
     return t;
 }
 
-float perlinNoise(vec2 uv, float scale, int octaves, float timeOffset)
+float perlin_noise(vec2 uv, float scale, int octaves, float timeOffset)
 {
     float t = 0.0;
     vec2 scaledUV = uv * scale;

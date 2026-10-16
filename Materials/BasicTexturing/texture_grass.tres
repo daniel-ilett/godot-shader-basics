@@ -1,0 +1,10 @@
+[gd_resource type="ShaderMaterial" format=3 uid="uid://f3nguqpeocp1"]
+
+[ext_resource type="Shader" uid="uid://b2wa5tb0g8jyu" path="res://Shaders/BasicTexture.gdshader" id="1_fhd3p"]
+[ext_resource type="Texture2D" uid="uid://bqjyd1h5rlc3r" path="res://Textures/Grass001_1K-PNG/Grass001_1K-PNG_Color.png" id="2_0rp5p"]
+
+[resource]
+render_priority = 0
+shader = ExtResource("1_fhd3p")
+shader_parameter/base_color = Color(1, 1, 1, 1)
+shader_parameter/base_texture = ExtResource("2_0rp5p")

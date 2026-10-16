@@ -1,4 +1,4 @@
-[gd_resource type="ShaderMaterial" load_steps=2 format=3 uid="uid://cvio2sx1o8m5k"]
+[gd_resource type="ShaderMaterial" format=3 uid="uid://cvio2sx1o8m5k"]
 
 [ext_resource type="Shader" uid="uid://capntwct3tw82" path="res://Shaders/HelloWorld.gdshader" id="1_ulgf3"]
 

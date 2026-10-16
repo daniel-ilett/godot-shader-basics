@@ -1,0 +1,9 @@
+[gd_resource type="ShaderMaterial" format=3 uid="uid://ca6vw04ak4xf2"]
+
+[ext_resource type="Shader" uid="uid://bweohw4ugsk70" path="res://Shaders/HullOutline.gdshader" id="1_qfomr"]
+
+[resource]
+render_priority = 0
+shader = ExtResource("1_qfomr")
+shader_parameter/outline_width = 0.0
+shader_parameter/outline_color = Color(0, 0, 0, 1)

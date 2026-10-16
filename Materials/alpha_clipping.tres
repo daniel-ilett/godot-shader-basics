@@ -1,0 +1,10 @@
+[gd_resource type="ShaderMaterial" format=3 uid="uid://b802ukvkjh78t"]
+
+[ext_resource type="Shader" uid="uid://c8f4k0re6o7f0" path="res://Shaders/AlphaClipping.gdshader" id="1_4sf8b"]
+[ext_resource type="Texture2D" uid="uid://c1uu6i7lbx0hq" path="res://icon.svg" id="2_5jv3m"]
+
+[resource]
+render_priority = 0
+shader = ExtResource("1_4sf8b")
+shader_parameter/base_color = Color(1, 1, 1, 1)
+shader_parameter/base_texture = ExtResource("2_5jv3m")

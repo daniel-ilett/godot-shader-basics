@@ -1,0 +1,10 @@
+[gd_resource type="ShaderMaterial" format=3 uid="uid://uinbdh3em7uo"]
+
+[ext_resource type="Shader" uid="uid://b2wa5tb0g8jyu" path="res://Shaders/BasicTexture.gdshader" id="1_k45ga"]
+[ext_resource type="Texture2D" uid="uid://febc1xn4vl40" path="res://Textures/Bricks097_1K-PNG/Bricks097_1K-PNG_Color.png" id="2_e7ntu"]
+
+[resource]
+render_priority = 0
+shader = ExtResource("1_k45ga")
+shader_parameter/base_color = Color(1, 1, 1, 1)
+shader_parameter/base_texture = ExtResource("2_e7ntu")

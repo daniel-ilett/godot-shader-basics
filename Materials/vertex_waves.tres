@@ -1,4 +1,4 @@
-[gd_resource type="ShaderMaterial" load_steps=3 format=3 uid="uid://b7uuixq2bwvl4"]
+[gd_resource type="ShaderMaterial" format=3 uid="uid://b7uuixq2bwvl4"]
 
 [ext_resource type="Shader" uid="uid://bp6qi5xda6hv7" path="res://Shaders/VertexWaves.gdshader" id="1_wgid6"]
 [ext_resource type="Texture2D" uid="uid://c1uu6i7lbx0hq" path="res://icon.svg" id="2_mnyap"]

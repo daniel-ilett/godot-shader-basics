@@ -1,0 +1,10 @@
+[gd_resource type="ShaderMaterial" format=3 uid="uid://djxnctthfy1lf"]
+
+[ext_resource type="Shader" uid="uid://cltcb4euyx1ei" path="res://Shaders/DitherTransparency.gdshader" id="1_jxu7n"]
+[ext_resource type="Texture2D" uid="uid://c1uu6i7lbx0hq" path="res://icon.svg" id="2_f0u4o"]
+
+[resource]
+render_priority = 0
+shader = ExtResource("1_jxu7n")
+shader_parameter/base_color = Color(1, 1, 1, 1)
+shader_parameter/base_texture = ExtResource("2_f0u4o")

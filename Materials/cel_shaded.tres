@@ -1,0 +1,8 @@
+[gd_resource type="ShaderMaterial" format=3 uid="uid://dc83b3q2yhoy7"]
+
+[ext_resource type="Shader" uid="uid://bdaugpi40ov75" path="res://Shaders/CelShaded.gdshader" id="1_t68w5"]
+
+[resource]
+render_priority = 0
+shader = ExtResource("1_t68w5")
+shader_parameter/base_color = Color(0.9537851, 0.32763433, 0, 1)
