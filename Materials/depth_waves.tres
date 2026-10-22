@@ -1,0 +1,25 @@
+[gd_resource type="ShaderMaterial" format=3 uid="uid://bnpkatomanuu3"]
+
+[ext_resource type="Shader" uid="uid://b3v7qfy5xg27" path="res://Shaders/DepthWaves.gdshader" id="1_utimh"]
+
+[sub_resource type="FastNoiseLite" id="FastNoiseLite_rmgqy"]
+
+[sub_resource type="NoiseTexture2D" id="NoiseTexture2D_fjcct"]
+noise = SubResource("FastNoiseLite_rmgqy")
+seamless = true
+
+[resource]
+render_priority = 0
+shader = ExtResource("1_utimh")
+shader_parameter/base_color = Color(0.21750002, 0.46600002, 0.75, 1)
+shader_parameter/wave_speed = 0.250000011875
+shader_parameter/wave_height = 0.1
+shader_parameter/wave_scale = 2.000000095
+shader_parameter/wave_darkening = 0.400000019
+shader_parameter/foam_color = Color(1, 1, 1, 1)
+shader_parameter/foam_thickness = 0.050000002375
+shader_parameter/foam_random_texture = SubResource("NoiseTexture2D_fjcct")
+shader_parameter/foam_random_strength = 0.30000001425
+shader_parameter/foam_random_tiling = Vector2(5, 3)
+shader_parameter/foam_random_flow = 0.10000000475
+shader_parameter/absorption_strength = 2.50000011875

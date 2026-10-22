@@ -1,0 +1,10 @@
+[gd_resource type="ShaderMaterial" format=3 uid="uid://cwb28ifjsfgkv"]
+
+[ext_resource type="Shader" uid="uid://bl7iuqfl4rvc6" path="res://Shaders/StencilTexture.gdshader" id="1_0yitj"]
+[ext_resource type="Texture2D" uid="uid://c1uu6i7lbx0hq" path="res://icon.svg" id="2_1nqbr"]
+
+[resource]
+render_priority = 0
+shader = ExtResource("1_0yitj")
+shader_parameter/base_color = Color(1, 1, 1, 1)
+shader_parameter/base_texture = ExtResource("2_1nqbr")

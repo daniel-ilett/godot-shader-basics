@@ -35,7 +35,6 @@ void fragment()
 	vec4 col = texture(base_texture, UV);
 	
 	float tint = (displacement / wave_height + 1.0f) * 0.5f;
-	//tint = tint * wave_darkening + (1.0f - wave_darkening);
 	tint = mix(1.0 - wave_darkening, 1.0f, tint);
 	
 	ALBEDO = base_color * col.rgb * tint;

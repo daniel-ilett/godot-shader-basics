@@ -1,0 +1,7 @@
+[gd_resource type="ShaderMaterial" format=3 uid="uid://77nlxskq6ww2"]
+
+[ext_resource type="Shader" uid="uid://bl7iuqfl4rvc6" path="res://Shaders/StencilTexture.gdshader" id="1_glxr4"]
+
+[resource]
+render_priority = 0
+shader = ExtResource("1_glxr4")

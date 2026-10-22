@@ -1,0 +1,29 @@
+[gd_resource type="ShaderMaterial" format=3 uid="uid://bckm2hb84ypxh"]
+
+[ext_resource type="Shader" uid="uid://bmpcf3sitteju" path="res://Shaders/PBR.gdshader" id="1_ii4xd"]
+[ext_resource type="Texture2D" uid="uid://febc1xn4vl40" path="res://Textures/Bricks097_1K-PNG/Bricks097_1K-PNG_Color.png" id="2_e5o02"]
+[ext_resource type="Texture2D" uid="uid://cp67ua2me76ah" path="res://Textures/Bricks097_1K-PNG/Bricks097_1K-PNG_Displacement.png" id="3_bu4hb"]
+[ext_resource type="Texture2D" uid="uid://ebw23kr0awnj" path="res://Textures/Bricks097_1K-PNG/Bricks097_1K-PNG_NormalGL.png" id="4_b0d86"]
+[ext_resource type="Texture2D" uid="uid://c8si8ybry3mf2" path="res://Textures/Bricks097_1K-PNG/Bricks097_1K-PNG_AmbientOcclusion.png" id="5_q8o54"]
+[ext_resource type="Texture2D" uid="uid://c78to1lgh51i4" path="res://Textures/Bricks097_1K-PNG/Bricks097_1K-PNG_Roughness.png" id="6_hjehf"]
+
+[resource]
+render_priority = 0
+shader = ExtResource("1_ii4xd")
+shader_parameter/uv_tiling = Vector2(1, 1)
+shader_parameter/uv_offset = Vector2(0, 0)
+shader_parameter/base_color = Color(1, 1, 1, 1)
+shader_parameter/base_texture = ExtResource("2_e5o02")
+shader_parameter/normal_texture = ExtResource("4_b0d86")
+shader_parameter/normal_strength = 1.50000007125
+shader_parameter/metallic = 0.0
+shader_parameter/occlusion_texture = ExtResource("5_q8o54")
+shader_parameter/occlusion = 1.0
+shader_parameter/heightmap_texture = ExtResource("3_bu4hb")
+shader_parameter/height = 0.050000002375
+shader_parameter/roughness_texture = ExtResource("6_hjehf")
+shader_parameter/roughness = 0.0
+shader_parameter/emission_color = Color(0, 0, 0, 1)
+shader_parameter/use_clear_coat = false
+shader_parameter/clearcoat = 0.0
+shader_parameter/clearcoat_roughness = 1.0

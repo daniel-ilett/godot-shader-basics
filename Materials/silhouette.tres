@@ -7,3 +7,4 @@ render_priority = 0
 shader = ExtResource("1_vqmux")
 shader_parameter/near_color = Color(1, 0.52, 0.99199986, 1)
 shader_parameter/far_color = Color(0.06533334, 0, 0.14, 1)
+shader_parameter/depth_divisor = 10.0

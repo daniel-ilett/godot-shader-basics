@@ -1,0 +1,8 @@
+[gd_resource type="ShaderMaterial" format=3 uid="uid://bv7iyfioh3khu"]
+
+[ext_resource type="Shader" uid="uid://dnc8mujswhj0c" path="res://Shaders/TransparentWriteDepth.gdshader" id="1_oi3kp"]
+
+[resource]
+render_priority = 0
+shader = ExtResource("1_oi3kp")
+shader_parameter/base_color = Color(0, 0.31666684, 1, 0.5019608)
