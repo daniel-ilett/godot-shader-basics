@@ -14,6 +14,7 @@ This project is part of a tutorial series which is available in the following pl
 - Part 2: Textures & UVs: [YouTube](https://www.youtube.com/watch?v=ktWHeYvXgSo) [Article](https://danielilett.com/2026-10-05-gdbasics-2-textures-and-uvs/)
 - Part 3: Vertex Displacement [YouTube](https://www.youtube.com/watch?v=KdWYdGvbjnA) [Article](https://danielilett.com/2026-10-10-gdbasics-3-vertex-displacement/)
 - Part 4: Transparency & The Screen Texture [YouTube](https://www.youtube.com/watch?v=2rw55VfYp2E) [Article](https://danielilett.com/2026-10-16-gdbasics-4-transparency/)
+- Part 5: Depth & Stencil Buffers [YouTube](https://www.youtube.com/watch?v=Y9F4MrGk-c4) [Article](https://danielilett.com/2026-10-22-gdbasics-5-depth-stencils/)
 
 ## Authors
 
